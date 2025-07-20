@@ -22,17 +22,18 @@ Este proyecto es una solución completa de autenticación de usuarios basada en 
 ---
 
 ## 📁 Estructura del repositorio
+
+```
 jwt-auth-app/
-├── backend/ # Proyecto Spring Boot
-│ ├── src/
-│ └── pom.xml
-├── frontend/ # Proyecto React
-│ ├── src/
-│ └── package.json
+├── backend/          # Proyecto Spring Boot
+│   ├── src/
+│   └── pom.xml
+├── frontend/         # Proyecto React
+│   ├── src/
+│   └── package.json
 └── README.md
+```
 
-
----
 
 ## 📋 Requisitos
 
@@ -40,7 +41,8 @@ jwt-auth-app/
 - Maven
 - MySQL
 - Postman o frontend para pruebas (opcional)
-
+- Node.js (v16 o superior recomendado)
+- Backend corriendo en `http://localhost:8080` (ver sección Backend)
 ---
 
 ## ⚙️ Configuración
